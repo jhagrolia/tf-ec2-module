@@ -27,7 +27,7 @@ variable "sg_ingress" {
             ipv6_cidr_blocks = []
             security_groups = []
         }
-        rule1 = {
+        rule2 = {
             description = "HTTP Port"
             from_port = 80
             to_port = 80
