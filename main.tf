@@ -1,10 +1,10 @@
 // Terraform S3 Backend for Remote State Management
 terraform {
   backend "s3" {
-    bucket = "tfstate-bukettt"
-   	key = "project2/terraform.tfstate"
-	  region = "ap-south-1"
-	  dynamodb_table = "terraform-lock"
+    bucket = "s3-bucket-name"
+    key = "key-name.tfstate"
+    region = "region-name"
+    dynamodb_table = "table-name"
   }
 }
 

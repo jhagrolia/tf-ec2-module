@@ -10,8 +10,8 @@ terraform {
 
 // Getting VPC Data
 data "aws_vpc" "default" {
-	filter {
-	  name = "isDefault"
-	  values = ["true"]
-	}
+  filter {
+    name = "isDefault"
+    values = ["true"]
+  }
 }
